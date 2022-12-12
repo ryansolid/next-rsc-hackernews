@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) Hackernews Clone made with the App directory. Demo found [`here`](https://next-rsc-hackernews.vercel.app).
+
+Not complete. Haven't made the user page yet. Only stories listings and story page.
 
 ## Getting Started
 

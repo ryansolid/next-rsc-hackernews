@@ -12,7 +12,7 @@ const Story = async ({ params }: {
     story && (
       <div className="item-view">
         <div className="item-view-header">
-          <a href={story.url} target="_blank">
+          <a href={story.url} target="_blank" rel="noreferrer">
             <h1>{story.title}</h1>
           </a>
           {story.domain && <span className="host">({story.domain})</span>}

@@ -12,7 +12,7 @@ const Comment = (props: { comment: IComment }) => {
       </div>
       <div
         className="text"
-        dangerouslySetInnerHTML={{ __html: props.comment.content }}
+        dangerouslySetInnerHTML={{ __html: props.comment.content || ""}}
       />
       {!!props.comment.comments.length && (
         <Toggle>

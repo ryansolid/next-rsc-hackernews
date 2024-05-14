@@ -6,5 +6,5 @@ export default function fetchAPI(path: string) {
   const url = path.startsWith("user") ? user(path) : story(path);
   const headers = { "User-Agent": "chrome" };
 
-  return fetch(url, { headers }).then((r) => r.json());
+  return fetch(url, { headers, cache: 'no-store' }).then((r) => r.json());
 }
